@@ -10,6 +10,8 @@ assets/
   css/styles.css
   img/atiqur-portrait.webp
   img/atiqur-office.webp
+  img/logo-*.png
+  S_M_Atiqur_Rahman_CV.pdf
 ```
 
 Fonts (Archivo and Source Serif 4) load from Google Fonts. All asset paths are relative.
@@ -18,4 +20,5 @@ Fonts (Archivo and Source Serif 4) load from Google Fonts. All asset paths are r
 
 - Copy and structure: `index.html`
 - Colours and type: the variables at the top of `assets/css/styles.css`
+- CV: replace `assets/S_M_Atiqur_Rahman_CV.pdf` (the hero "Download CV" button links to it)
 - Photos: replace the two files in `assets/img/` (keep the same names, or update the `src` in `index.html`)
