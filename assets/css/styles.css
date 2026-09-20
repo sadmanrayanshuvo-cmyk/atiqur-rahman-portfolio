@@ -1054,3 +1054,29 @@ ul, ol, dl, dd { margin: 0; padding: 0; }
 }
 .langs li span:first-child { font-family: var(--display); font-weight: 700; }
 .langs li span:last-child { font-size: 0.88rem; color: var(--green-bright); }
+
+/* ---------- Logo tiles ---------- */
+
+.logo-mono {
+  min-width: 56px;
+  padding: 0 12px;
+  background: var(--ink);
+  border-color: var(--ink);
+  color: #fff;
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: 0.95rem;
+  letter-spacing: 0.03em;
+}
+.layer li.has-mark .logo-chip { height: 56px; margin-bottom: 12px; }
+.tv-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+.tv-head .logo-chip { flex: none; }
+
+@media (max-width: 520px) {
+  .tv-head { flex-direction: column-reverse; }
+}
