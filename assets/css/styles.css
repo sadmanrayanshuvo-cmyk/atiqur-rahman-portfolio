@@ -1069,6 +1069,8 @@ ul, ol, dl, dd { margin: 0; padding: 0; }
   letter-spacing: 0.03em;
 }
 .layer li.has-mark .logo-chip { height: 56px; margin-bottom: 12px; }
+.layer li.has-mark .logo-chip { max-width: 100%; }
+.layer li.has-mark .logo-chip img { width: auto; height: auto; max-width: 100%; max-height: 100%; }
 .tv-head {
   display: flex;
   align-items: flex-start;
